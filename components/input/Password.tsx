@@ -23,8 +23,8 @@ export default class Password extends React.Component<PasswordProps, PasswordSta
   input: HTMLInputElement;
 
   static defaultProps = {
-    inputPrefixCls: 'ant-input',
-    prefixCls: 'ant-input-password',
+    inputPrefixCls: 'asp-input',
+    prefixCls: 'asp-input-password',
     action: 'click',
     visibilityToggle: true,
   };

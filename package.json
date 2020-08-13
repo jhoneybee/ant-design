@@ -1,6 +1,6 @@
 {
-  "name": "antd",
-  "version": "3.26.18",
+  "name": "asp-antd-compatible",
+  "version": "3.26.21",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
     "ant",
@@ -64,7 +64,6 @@
     "prettier": "prettier -c --write '**/*'",
     "pretty-quick": "pretty-quick",
     "pub": "antd-tools run pub",
-    "prepublish": "antd-tools run guard",
     "site": "cross-env NODE_ICU_DATA=node_modules/full-icu bisheng build --ssr -c ./site/bisheng.config.js && node ./scripts/generateColorLess.js",
     "sort": "npx sort-package-json",
     "sort-api": "antd-tools run sort-api-table",

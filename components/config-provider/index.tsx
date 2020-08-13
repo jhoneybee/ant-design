@@ -36,7 +36,7 @@ export interface ConfigProviderProps {
 
 class ConfigProvider extends React.Component<ConfigProviderProps> {
   getPrefixCls = (suffixCls: string, customizePrefixCls?: string) => {
-    const { prefixCls = 'ant' } = this.props;
+    const { prefixCls = 'asp' } = this.props;
 
     if (customizePrefixCls) return customizePrefixCls;
 
